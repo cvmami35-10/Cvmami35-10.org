@@ -11,7 +11,7 @@
 
 const SITE = {
   name: 'CVMA<sup>®</sup> MI 35-10',
-  tagline: 'Combat Veterans Motorcycle Association',
+  tagline: 'Combat Veterans Motorcycle Association<sup>®</sup>',
   location: 'Hemlock, Michigan',
   address: 'P.O. Box 105, Hemlock, MI 48626',
   phone: '',                               // leave empty to hide
@@ -27,7 +27,7 @@ const SITE = {
 const MENU = [
   { label: 'About Us', children: [
     { label: 'Command and Staff', href: 'command-and-staff/' },
-    { label: 'CVMA Chapter 35-10', href: 'cvma-chapter-35-10/' },
+    { label: 'CVMA<sup>®</sup> Chapter 35-10', href: 'cvma-chapter-35-10/' },
     { label: 'Combat Vets Auxiliary', href: 'combat-vets-auxiliary/' },
   ]},
   { label: 'Events', href: 'event-calendar/' },
@@ -41,17 +41,13 @@ const MENU = [
     { label: 'Shop Gear & Apparel', href: 'shop-gear-and-apparel/' },
   ]},
   { label: 'Gallery', href: 'gallery/' },
-  { label: 'Members', children: [
-    { label: 'Bylaws, Policies & SOPs', href: 'bylaws-policies-sops/' },
-    { label: 'Meeting Minutes', href: 'meeting-minutes/' },
-  ]},
 ];
 
 // Footer link columns.
 const FOOTER = [
   { title: 'About', links: [
     { label: 'Command and Staff', href: 'command-and-staff/' },
-    { label: 'CVMA Chapter 35-10', href: 'cvma-chapter-35-10/' },
+    { label: 'CVMA<sup>®</sup> Chapter 35-10', href: 'cvma-chapter-35-10/' },
     { label: 'Combat Vets Auxiliary', href: 'combat-vets-auxiliary/' },
     { label: 'Become a Member', href: 'become-a-member/' },
   ]},

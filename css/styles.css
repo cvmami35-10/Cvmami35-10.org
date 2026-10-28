@@ -294,6 +294,10 @@ a:hover .link-arrow::after, .link-arrow:hover::after { transform: translateX(4px
 .video { margin: 0; }
 .video__frame { position: relative; aspect-ratio: 16 / 9; background: var(--black); }
 .video__frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+.video--wide {
+  grid-column: 1 / -1;
+}
 .video figcaption { font-family: var(--font-head); text-transform: uppercase; letter-spacing: .06em; font-weight: 600; font-size: 20px; padding: 14px 0 0; border-top: 4px solid var(--gold); margin-top: 0; }
 
 /* Crisis */
@@ -581,6 +585,14 @@ a:hover .link-arrow::after, .link-arrow:hover::after { transform: translateX(4px
   .fb-feed { margin: 0 auto; }
 }
 .hero__media video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+
+.hero__media img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 /* Second countdown band (dark), e.g. chapter events under the National Meeting */
 .countdown--dark { background: var(--ink); color: #fff; border-top: 4px solid var(--gold); }
 .countdown--dark .eyebrow { color: var(--gold); }
